@@ -1,0 +1,466 @@
+{
+  "identity": "Veylo synthetic same-input SVGO replay; no customer result",
+  "node": "v22.23.4",
+  "platform": "linux",
+  "package": "4.0.0",
+  "lockSha256": "aca8a5ad4558d973bf06d9bea5268176097bec0bb6a7e01fe25ba4a8b4d561dd",
+  "lock": {
+    "name": "svg-native",
+    "lockfileVersion": 3,
+    "requires": true,
+    "packages": {
+      "": {
+        "dependencies": {
+          "svgo": "^4.0.0"
+        }
+      },
+      "node_modules/boolbase": {
+        "version": "1.0.0",
+        "resolved": "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz",
+        "integrity": "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==",
+        "license": "ISC"
+      },
+      "node_modules/commander": {
+        "version": "11.1.0",
+        "resolved": "https://registry.npmjs.org/commander/-/commander-11.1.0.tgz",
+        "integrity": "sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==",
+        "license": "MIT",
+        "engines": {
+          "node": ">=16"
+        }
+      },
+      "node_modules/css-select": {
+        "version": "5.2.2",
+        "resolved": "https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz",
+        "integrity": "sha512-TizTzUddG/xYLA3NXodFM0fSbNizXjOKhqiQQwvhlspadZokn1KDy0NZFS0wuEubIYAV5/c1/lAr0TaaFXEXzw==",
+        "license": "BSD-2-Clause",
+        "dependencies": {
+          "boolbase": "^1.0.0",
+          "css-what": "^6.1.0",
+          "domhandler": "^5.0.2",
+          "domutils": "^3.0.1",
+          "nth-check": "^2.0.1"
+        },
+        "funding": {
+          "url": "https://github.com/sponsors/fb55"
+        }
+      },
+      "node_modules/css-tree": {
+        "version": "3.2.1",
+        "resolved": "https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz",
+        "integrity": "sha512-X7sjQzceUhu1u7Y/ylrRZFU2FS6LRiFVp6rKLPg23y3x3c3DOKAwuXGDp+PAGjh6CSnCjYeAul8pcT8bAl+lSA==",
+        "license": "MIT",
+        "dependencies": {
+          "mdn-data": "2.27.1",
+          "source-map-js": "^1.2.1"
+        },
+        "engines": {
+          "node": "^10 || ^12.20.0 || ^14.13.0 || >=15.0.0"
+        }
+      },
+      "node_modules/css-what": {
+        "version": "6.2.2",
+        "resolved": "https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz",
+        "integrity": "sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA==",
+        "license": "BSD-2-Clause",
+        "engines": {
+          "node": ">= 6"
+        },
+        "funding": {
+          "url": "https://github.com/sponsors/fb55"
+        }
+      },
+      "node_modules/csso": {
+        "version": "5.0.5",
+        "resolved": "https://registry.npmjs.org/csso/-/csso-5.0.5.tgz",
+        "integrity": "sha512-0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==",
+        "license": "MIT",
+        "dependencies": {
+          "css-tree": "~2.2.0"
+        },
+        "engines": {
+          "node": "^10 || ^12.20.0 || ^14.13.0 || >=15.0.0",
+          "npm": ">=7.0.0"
+        }
+      },
+      "node_modules/csso/node_modules/css-tree": {
+        "version": "2.2.1",
+        "resolved": "https://registry.npmjs.org/css-tree/-/css-tree-2.2.1.tgz",
+        "integrity": "sha512-OA0mILzGc1kCOCSJerOeqDxDQ4HOh+G8NbOJFOTgOCzpw7fCBubk0fEyxp8AgOL/jvLgYA/uV0cMbe43ElF1JA==",
+        "license": "MIT",
+        "dependencies": {
+          "mdn-data": "2.0.28",
+          "source-map-js": "^1.0.1"
+        },
+        "engines": {
+          "node": "^10 || ^12.20.0 || ^14.13.0 || >=15.0.0",
+          "npm": ">=7.0.0"
+        }
+      },
+      "node_modules/csso/node_modules/mdn-data": {
+        "version": "2.0.28",
+        "resolved": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.28.tgz",
+        "integrity": "sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==",
+        "license": "CC0-1.0"
+      },
+      "node_modules/dom-serializer": {
+        "version": "2.0.0",
+        "resolved": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz",
+        "integrity": "sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==",
+        "license": "MIT",
+        "dependencies": {
+          "domelementtype": "^2.3.0",
+          "domhandler": "^5.0.2",
+          "entities": "^4.2.0"
+        },
+        "funding": {
+          "url": "https://github.com/cheeriojs/dom-serializer?sponsor=1"
+        }
+      },
+      "node_modules/domelementtype": {
+        "version": "2.3.0",
+        "resolved": "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz",
+        "integrity": "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==",
+        "funding": [
+          {
+            "type": "github",
+            "url": "https://github.com/sponsors/fb55"
+          }
+        ],
+        "license": "BSD-2-Clause"
+      },
+      "node_modules/domhandler": {
+        "version": "5.0.3",
+        "resolved": "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz",
+        "integrity": "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==",
+        "license": "BSD-2-Clause",
+        "dependencies": {
+          "domelementtype": "^2.3.0"
+        },
+        "engines": {
+          "node": ">= 4"
+        },
+        "funding": {
+          "url": "https://github.com/fb55/domhandler?sponsor=1"
+        }
+      },
+      "node_modules/domutils": {
+        "version": "3.2.2",
+        "resolved": "https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz",
+        "integrity": "sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==",
+        "license": "BSD-2-Clause",
+        "dependencies": {
+          "dom-serializer": "^2.0.0",
+          "domelementtype": "^2.3.0",
+          "domhandler": "^5.0.3"
+        },
+        "funding": {
+          "url": "https://github.com/fb55/domutils?sponsor=1"
+        }
+      },
+      "node_modules/entities": {
+        "version": "4.5.0",
+        "resolved": "https://registry.npmjs.org/entities/-/entities-4.5.0.tgz",
+        "integrity": "sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==",
+        "license": "BSD-2-Clause",
+        "engines": {
+          "node": ">=0.12"
+        },
+        "funding": {
+          "url": "https://github.com/fb55/entities?sponsor=1"
+        }
+      },
+      "node_modules/mdn-data": {
+        "version": "2.27.1",
+        "resolved": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.27.1.tgz",
+        "integrity": "sha512-9Yubnt3e8A0OKwxYSXyhLymGW4sCufcLG6VdiDdUGVkPhpqLxlvP5vl1983gQjJl3tqbrM731mjaZaP68AgosQ==",
+        "license": "CC0-1.0"
+      },
+      "node_modules/nth-check": {
+        "version": "2.1.1",
+        "resolved": "https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz",
+        "integrity": "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==",
+        "license": "BSD-2-Clause",
+        "dependencies": {
+          "boolbase": "^1.0.0"
+        },
+        "funding": {
+          "url": "https://github.com/fb55/nth-check?sponsor=1"
+        }
+      },
+      "node_modules/picocolors": {
+        "version": "1.1.1",
+        "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+        "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+        "license": "ISC"
+      },
+      "node_modules/sax": {
+        "version": "1.6.1",
+        "resolved": "https://registry.npmjs.org/sax/-/sax-1.6.1.tgz",
+        "integrity": "sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==",
+        "license": "BlueOak-1.0.0",
+        "engines": {
+          "node": ">=11.0.0"
+        }
+      },
+      "node_modules/source-map-js": {
+        "version": "1.2.2",
+        "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+        "integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+        "license": "BSD-3-Clause",
+        "engines": {
+          "node": ">=0.10.0"
+        }
+      },
+      "node_modules/svgo": {
+        "version": "4.0.0",
+        "resolved": "https://registry.npmjs.org/svgo/-/svgo-4.0.0.tgz",
+        "integrity": "sha512-VvrHQ+9uniE+Mvx3+C9IEe/lWasXCU0nXMY2kZeLrHNICuRiC8uMPyM14UEaMOFA5mhyQqEkB02VoQ16n3DLaw==",
+        "license": "MIT",
+        "dependencies": {
+          "commander": "^11.1.0",
+          "css-select": "^5.1.0",
+          "css-tree": "^3.0.1",
+          "css-what": "^6.1.0",
+          "csso": "^5.0.5",
+          "picocolors": "^1.1.1",
+          "sax": "^1.4.1"
+        },
+        "bin": {
+          "svgo": "bin/svgo.js"
+        },
+        "engines": {
+          "node": ">=16"
+        },
+        "funding": {
+          "type": "opencollective",
+          "url": "https://opencollective.com/svgo"
+        }
+      }
+    }
+  },
+  "files": {
+    "package.json": {
+      "bytes": 3815,
+      "sha256": "ce97149f2d3ae82fab0dfe2a2e4366366d5aa9ec81270723654c2f3929573f1f",
+      "text": "{\n  \"packageManager\": \"yarn@3.8.7\",\n  \"name\": \"svgo\",\n  \"version\": \"4.0.0\",\n  \"description\": \"SVGO is a Node.js library and command-line application for optimizing vector images.\",\n  \"license\": \"MIT\",\n  \"type\": \"module\",\n  \"keywords\": [\n    \"svgo\",\n    \"svg\",\n    \"optimize\",\n    \"minify\"\n  ],\n  \"homepage\": \"https://svgo.dev\",\n  \"bugs\": {\n    \"url\": \"https://github.com/svg/svgo/issues\"\n  },\n  \"author\": {\n    \"name\": \"Kir Belevich\",\n    \"email\": \"kir@belevi.ch\",\n    \"url\": \"https://github.com/deepsweet\"\n  },\n  \"contributors\": [\n    {\n      \"name\": \"Sergey Belov\",\n      \"email\": \"peimei@ya.ru\",\n      \"url\": \"https://github.com/arikon\"\n    },\n    {\n      \"name\": \"Lev Solntsev\",\n      \"email\": \"lev.sun@ya.ru\",\n      \"url\": \"https://github.com/GreLI\"\n    },\n    {\n      \"name\": \"Bogdan Chadkin\",\n      \"email\": \"trysound@yandex.ru\",\n      \"url\": \"https://github.com/TrySound\"\n    },\n    {\n      \"name\": \"Seth Falco\",\n      \"email\": \"seth@falco.fun\",\n      \"url\": \"https://falco.fun/\"\n    }\n  ],\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git://github.com/svg/svgo.git\"\n  },\n  \"funding\": {\n    \"type\": \"opencollective\",\n    \"url\": \"https://opencollective.com/svgo\"\n  },\n  \"bin\": \"./bin/svgo.js\",\n  \"types\": \"./types/lib/svgo-node.d.ts\",\n  \"exports\": {\n    \".\": {\n      \"import\": \"./lib/svgo-node.js\",\n      \"require\": \"./dist/svgo-node.cjs\",\n      \"types\": \"./types/lib/svgo-node.d.ts\"\n    },\n    \"./browser\": {\n      \"import\": \"./dist/svgo.browser.js\",\n      \"types\": \"./types/lib/svgo.d.ts\"\n    }\n  },\n  \"files\": [\n    \"bin\",\n    \"dist\",\n    \"lib\",\n    \"plugins\",\n    \"types\",\n    \"!**/*.test.js\"\n  ],\n  \"engines\": {\n    \"node\": \">=16\"\n  },\n  \"scripts\": {\n    \"build\": \"node scripts/sync-version.js && yarn build:bundles && yarn build:types\",\n    \"build:bundles\": \"yarn clean:build && rollup -c\",\n    \"build:types\": \"yarn clean:types && tsc && tsc -p tsconfig.build.json\",\n    \"lint\": \"eslint . && prettier --check .\",\n    \"lint:fix\": \"eslint --fix . && prettier --write .\",\n    \"test\": \"cross-env NODE_OPTIONS=--experimental-vm-modules jest --maxWorkers=4 --coverage\",\n    \"test:bundles\": \"yarn build:bundles && node ./test/svgo.cjs && node ./test/browser.js\",\n    \"test:types\": \"yarn build:types && tsc && tsd\",\n    \"test:regression\": \"node ./test/regression-extract.js && cross-env NO_DIFF=1 node ./test/regression.js\",\n    \"qa\": \"yarn lint && yarn test:types && yarn test && yarn test:bundles && yarn test:regression\",\n    \"clean\": \"yarn clean:build && yarn clean:types\",\n    \"clean:build\": \"rimraf dist\",\n    \"clean:types\": \"rimraf types\",\n    \"prepublishOnly\": \"yarn clean && yarn build\"\n  },\n  \"jest\": {\n    \"coveragePathIgnorePatterns\": [\n      \"fixtures\"\n    ],\n    \"coverageReporters\": [\n      \"html\",\n      \"lcov\",\n      \"text\"\n    ]\n  },\n  \"dependencies\": {\n    \"commander\": \"^11.1.0\",\n    \"css-select\": \"^5.1.0\",\n    \"css-tree\": \"^3.0.1\",\n    \"css-what\": \"^6.1.0\",\n    \"csso\": \"^5.0.5\",\n    \"picocolors\": \"^1.1.1\",\n    \"sax\": \"^1.4.1\"\n  },\n  \"devDependencies\": {\n    \"@eslint/js\": \"^9.25.1\",\n    \"@jest/globals\": \"^29.7.0\",\n    \"@rollup/plugin-commonjs\": \"^26.0.3\",\n    \"@rollup/plugin-node-resolve\": \"^15.2.3\",\n    \"@rollup/plugin-terser\": \"^0.4.4\",\n    \"@types/css-tree\": \"^2.3.10\",\n    \"@types/csso\": \"^5.0.4\",\n    \"@types/jest\": \"^29.5.14\",\n    \"@types/node\": \"^22.15.3\",\n    \"@types/sax\": \"^1.2.7\",\n    \"@types/tar-stream\": \"^3.1.3\",\n    \"cross-env\": \"^7.0.3\",\n    \"eslint\": \"^9.25.1\",\n    \"globals\": \"^14.0.0\",\n    \"jest\": \"^29.7.0\",\n    \"pixelmatch\": \"^7.1.0\",\n    \"playwright\": \"^1.52.0\",\n    \"pngjs\": \"^7.0.0\",\n    \"prettier\": \"^3.5.3\",\n    \"rimraf\": \"^5.0.10\",\n    \"rollup\": \"^4.22.4\",\n    \"tar-stream\": \"^3.1.7\",\n    \"tsd\": \"^0.32.0\",\n    \"typescript\": \"^5.8.3\"\n  },\n  \"resolutions\": {\n    \"sax@^1.4.1\": \"patch:sax@npm%3A1.4.1#./.yarn/patches/sax-npm-1.4.1-503b1923cb.patch\"\n  }\n}"
+    },
+    "plugins/mergeStyles.js": {
+      "bytes": 2286,
+      "sha256": "c995fc4aaec8a71b989754ab4390cb70ea66f22b4c79f4ea7781f444a8d857c8",
+      "text": "import { detachNodeFromParent } from '../lib/xast.js';\nimport { visitSkip } from '../lib/util/visit.js';\n\nexport const name = 'mergeStyles';\nexport const description = 'merge multiple style elements into one';\n\n/**\n * Merge multiple style elements into one.\n *\n * @author strarsis <strarsis@gmail.com>\n *\n * @type {import('../lib/types.js').Plugin}\n */\nexport const fn = () => {\n  /** @type {?import('../lib/types.js').XastElement} */\n  let firstStyleElement = null;\n  let collectedStyles = '';\n  /** @type {'text' | 'cdata'} */\n  let styleContentType = 'text';\n\n  return {\n    element: {\n      enter: (node, parentNode) => {\n        // skip <foreignObject> content\n        if (node.name === 'foreignObject') {\n          return visitSkip;\n        }\n\n        // collect style elements\n        if (node.name !== 'style') {\n          return;\n        }\n\n        // skip <style> with invalid type attribute\n        if (\n          node.attributes.type != null &&\n          node.attributes.type !== '' &&\n          node.attributes.type !== 'text/css'\n        ) {\n          return;\n        }\n\n        // extract style element content\n        let css = '';\n        for (const child of node.children) {\n          if (child.type === 'text') {\n            css += child.value;\n          }\n          if (child.type === 'cdata') {\n            styleContentType = 'cdata';\n            css += child.value;\n          }\n        }\n\n        // remove empty style elements\n        if (css.trim().length === 0) {\n          detachNodeFromParent(node, parentNode);\n          return;\n        }\n\n        // collect css and wrap with media query if present in attribute\n        if (node.attributes.media == null) {\n          collectedStyles += css;\n        } else {\n          collectedStyles += `@media ${node.attributes.media}{${css}}`;\n          delete node.attributes.media;\n        }\n\n        // combine collected styles in the first style element\n        if (firstStyleElement == null) {\n          firstStyleElement = node;\n        } else {\n          detachNodeFromParent(node, parentNode);\n          /** @type {import('../lib/types.js').XastChild} */\n          const child = { type: styleContentType, value: collectedStyles };\n          firstStyleElement.children = [child];\n        }\n      },\n    },\n  };\n};\n"
+    },
+    "plugins/inlineStyles.js": {
+      "bytes": 13039,
+      "sha256": "7ae18bc2a7e1a0240578922683197fe6f562261c05a2ce1142b9c10341ea2c7e",
+      "text": "import * as csstree from 'css-tree';\nimport { syntax } from 'csso';\nimport { attrsGroups, pseudoClasses } from './_collections.js';\nimport { detachNodeFromParent, querySelectorAll } from '../lib/xast.js';\nimport { visitSkip } from '../lib/util/visit.js';\nimport { compareSpecificity, includesAttrSelector } from '../lib/style.js';\n\n/**\n * @typedef InlineStylesParams\n * @property {boolean=} onlyMatchedOnce Inlines selectors that match once only.\n * @property {boolean=} removeMatchedSelectors\n *   Clean up matched selectors. Unused selects are left as-is.\n * @property {string[]=} useMqs\n *   Media queries to use. An empty string indicates all selectors outside of\n *   media queries.\n * @property {string[]=} usePseudos\n *   Pseudo-classes and elements to use. An empty string indicates all\n *   non-pseudo-classes and elements.\n */\n\nexport const name = 'inlineStyles';\nexport const description = 'inline styles (additional options)';\n\n/**\n * Some pseudo-classes can only be calculated by clients, like :visited,\n * :future, or :hover, but there are other pseudo-classes that we can evaluate\n * during optimization.\n *\n * Pseudo-classes that we can evaluate during optimization, and shouldn't be\n * toggled conditionally through the `usePseudos` parameter.\n *\n * @see https://developer.mozilla.org/docs/Web/CSS/Pseudo-classes\n */\nconst preservedPseudos = [\n  ...pseudoClasses.functional,\n  ...pseudoClasses.treeStructural,\n];\n\n/**\n * Merges styles from style nodes into inline styles.\n *\n * @type {import('../lib/types.js').Plugin<InlineStylesParams>}\n * @author strarsis <strarsis@gmail.com>\n */\nexport const fn = (root, params) => {\n  const {\n    onlyMatchedOnce = true,\n    removeMatchedSelectors = true,\n    useMqs = ['', 'screen'],\n    usePseudos = [''],\n  } = params;\n\n  /**\n   * @type {{\n   *   node: import('../lib/types.js').XastElement,\n   *   parentNode: import('../lib/types.js').XastParent,\n   *   cssAst: csstree.StyleSheet\n   * }[]}\n   */\n  const styles = [];\n  /**\n   * @type {{\n   *   node: csstree.Selector,\n   *   item: csstree.ListItem<csstree.CssNode>,\n   *   rule: csstree.Rule,\n   *   matchedElements?: import('../lib/types.js').XastElement[]\n   * }[]}\n   */\n  const selectors = [];\n\n  return {\n    element: {\n      enter: (node, parentNode) => {\n        if (node.name === 'foreignObject') {\n          return visitSkip;\n        }\n        if (node.name !== 'style' || node.children.length === 0) {\n          return;\n        }\n        if (\n          node.attributes.type != null &&\n          node.attributes.type !== '' &&\n          node.attributes.type !== 'text/css'\n        ) {\n          return;\n        }\n\n        const cssText = node.children\n          .filter((child) => child.type === 'text' || child.type === 'cdata')\n          .map((child) => child.value)\n          .join('');\n\n        /** @type {?csstree.CssNode} */\n        let cssAst = null;\n        try {\n          cssAst = csstree.parse(cssText, {\n            parseValue: false,\n            parseCustomProperty: false,\n          });\n        } catch {\n          return;\n        }\n        if (cssAst.type === 'StyleSheet') {\n          styles.push({ node, parentNode, cssAst });\n        }\n\n        // collect selectors\n        csstree.walk(cssAst, {\n          visit: 'Rule',\n          enter(node) {\n            const atrule = this.atrule;\n\n            // skip media queries not included into useMqs param\n            let mediaQuery = '';\n            if (atrule != null) {\n              mediaQuery = atrule.name;\n              if (atrule.prelude != null) {\n                mediaQuery += ` ${csstree.generate(atrule.prelude)}`;\n              }\n            }\n            if (!useMqs.includes(mediaQuery)) {\n              return;\n            }\n\n            if (node.prelude.type === 'SelectorList') {\n              node.prelude.children.forEach((childNode, item) => {\n                if (childNode.type === 'Selector') {\n                  /**\n                   * @type {{\n                   *   item: csstree.ListItem<csstree.CssNode>,\n                   *   list: csstree.List<csstree.CssNode>\n                   * }[]}\n                   */\n                  const pseudos = [];\n\n                  childNode.children.forEach(\n                    (grandchildNode, grandchildItem, grandchildList) => {\n                      const isPseudo =\n                        grandchildNode.type === 'PseudoClassSelector' ||\n                        grandchildNode.type === 'PseudoElementSelector';\n\n                      if (\n                        isPseudo &&\n                        !preservedPseudos.includes(grandchildNode.name)\n                      ) {\n                        pseudos.push({\n                          item: grandchildItem,\n                          list: grandchildList,\n                        });\n                      }\n                    },\n                  );\n\n                  const pseudoSelectors = csstree.generate({\n                    type: 'Selector',\n                    children: new csstree.List().fromArray(\n                      pseudos.map((pseudo) => pseudo.item.data),\n                    ),\n                  });\n\n                  if (usePseudos.includes(pseudoSelectors)) {\n                    for (const pseudo of pseudos) {\n                      pseudo.list.remove(pseudo.item);\n                    }\n                  }\n\n                  selectors.push({ node: childNode, rule: node, item: item });\n                }\n              });\n            }\n          },\n        });\n      },\n    },\n\n    root: {\n      exit: () => {\n        if (styles.length === 0) {\n          return;\n        }\n        const sortedSelectors = selectors\n          .slice()\n          .sort((a, b) => {\n            const aSpecificity = syntax.specificity(a.item.data);\n            const bSpecificity = syntax.specificity(b.item.data);\n            return compareSpecificity(aSpecificity, bSpecificity);\n          })\n          .reverse();\n\n        for (const selector of sortedSelectors) {\n          // match selectors\n          const selectorText = csstree.generate(selector.item.data);\n          /** @type {import('../lib/types.js').XastElement[]} */\n          const matchedElements = [];\n          try {\n            for (const node of querySelectorAll(root, selectorText)) {\n              if (node.type === 'element') {\n                matchedElements.push(node);\n              }\n            }\n          } catch {\n            continue;\n          }\n          // nothing selected\n          if (matchedElements.length === 0) {\n            continue;\n          }\n\n          // apply styles to matched elements\n          // skip selectors that match more than once if option onlyMatchedOnce is enabled\n          if (onlyMatchedOnce && matchedElements.length > 1) {\n            continue;\n          }\n\n          // apply <style/> to matched elements\n          for (const selectedEl of matchedElements) {\n            const styleDeclarationList = csstree.parse(\n              selectedEl.attributes.style ?? '',\n              {\n                context: 'declarationList',\n                parseValue: false,\n              },\n            );\n            if (styleDeclarationList.type !== 'DeclarationList') {\n              continue;\n            }\n            const styleDeclarationItems = new Map();\n\n            /** @type {csstree.ListItem<csstree.CssNode>} */\n            let firstListItem;\n\n            csstree.walk(styleDeclarationList, {\n              visit: 'Declaration',\n              enter(node, item) {\n                if (firstListItem == null) {\n                  firstListItem = item;\n                }\n\n                styleDeclarationItems.set(node.property.toLowerCase(), item);\n              },\n            });\n            // merge declarations\n            csstree.walk(selector.rule, {\n              visit: 'Declaration',\n              enter(ruleDeclaration) {\n                // existing inline styles have higher priority\n                // no inline styles, external styles,                                    external styles used\n                // inline styles,    external styles same   priority as inline styles,   inline   styles used\n                // inline styles,    external styles higher priority than inline styles, external styles used\n                const property = ruleDeclaration.property;\n\n                if (\n                  attrsGroups.presentation.has(property) &&\n                  !selectors.some((selector) =>\n                    includesAttrSelector(selector.item, property),\n                  )\n                ) {\n                  delete selectedEl.attributes[property];\n                }\n\n                const matchedItem = styleDeclarationItems.get(property);\n                const ruleDeclarationItem =\n                  styleDeclarationList.children.createItem(ruleDeclaration);\n                if (matchedItem == null) {\n                  styleDeclarationList.children.insert(\n                    ruleDeclarationItem,\n                    firstListItem,\n                  );\n                } else if (\n                  matchedItem.data.important !== true &&\n                  ruleDeclaration.important === true\n                ) {\n                  styleDeclarationList.children.replace(\n                    matchedItem,\n                    ruleDeclarationItem,\n                  );\n                  styleDeclarationItems.set(property, ruleDeclarationItem);\n                }\n              },\n            });\n\n            const newStyles = csstree.generate(styleDeclarationList);\n            if (newStyles.length !== 0) {\n              selectedEl.attributes.style = newStyles;\n            }\n          }\n\n          if (\n            removeMatchedSelectors &&\n            matchedElements.length !== 0 &&\n            selector.rule.prelude.type === 'SelectorList'\n          ) {\n            // clean up matching simple selectors if option removeMatchedSelectors is enabled\n            selector.rule.prelude.children.remove(selector.item);\n          }\n          selector.matchedElements = matchedElements;\n        }\n\n        // no further processing required\n        if (!removeMatchedSelectors) {\n          return;\n        }\n\n        // clean up matched class + ID attribute values\n        for (const selector of sortedSelectors) {\n          if (selector.matchedElements == null) {\n            continue;\n          }\n\n          if (onlyMatchedOnce && selector.matchedElements.length > 1) {\n            // skip selectors that match more than once if option onlyMatchedOnce is enabled\n            continue;\n          }\n\n          for (const selectedEl of selector.matchedElements) {\n            // class\n            const classList = new Set(\n              selectedEl.attributes.class == null\n                ? null\n                : selectedEl.attributes.class.split(' '),\n            );\n\n            for (const child of selector.node.children) {\n              if (\n                child.type === 'ClassSelector' &&\n                !selectors.some((selector) =>\n                  includesAttrSelector(\n                    selector.item,\n                    'class',\n                    child.name,\n                    true,\n                  ),\n                )\n              ) {\n                classList.delete(child.name);\n              }\n            }\n\n            if (classList.size === 0) {\n              delete selectedEl.attributes.class;\n            } else {\n              selectedEl.attributes.class = Array.from(classList).join(' ');\n            }\n\n            // ID\n            const firstSubSelector = selector.node.children.first;\n            if (\n              firstSubSelector?.type === 'IdSelector' &&\n              selectedEl.attributes.id === firstSubSelector.name &&\n              !selectors.some((selector) =>\n                includesAttrSelector(\n                  selector.item,\n                  'id',\n                  firstSubSelector.name,\n                  true,\n                ),\n              )\n            ) {\n              delete selectedEl.attributes.id;\n            }\n          }\n        }\n\n        for (const style of styles) {\n          csstree.walk(style.cssAst, {\n            visit: 'Rule',\n            enter: function (node, item, list) {\n              // clean up <style/> rulesets without any css selectors left\n              if (\n                node.type === 'Rule' &&\n                node.prelude.type === 'SelectorList' &&\n                node.prelude.children.isEmpty\n              ) {\n                list.remove(item);\n              }\n            },\n          });\n\n          if (style.cssAst.children.isEmpty) {\n            // remove empty style element\n            detachNodeFromParent(style.node, style.parentNode);\n          } else {\n            // update style element if any styles left\n            const firstChild = style.node.children[0];\n            if (firstChild.type === 'text' || firstChild.type === 'cdata') {\n              firstChild.value = csstree.generate(style.cssAst);\n            }\n          }\n        }\n      },\n    },\n  };\n};\n"
+    },
+    "LICENSE": {
+      "bytes": 1064,
+      "sha256": "d2b5640808aeec9c243152ae733cf9cca3a86189ad7817bf50335290dbb31012",
+      "text": "MIT License\n\nCopyright (c) Kir Belevich\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    },
+    "dist/svgo-node.cjs": {
+      "bytes": 188835,
+      "sha256": "922b31a7a3265f0bb8f601cf46a4f54b4d9f68cff987be4cdc7e1a335b904c7d"
+    }
+  },
+  "cases": [
+    {
+      "inputKey": "source_media_attribute",
+      "config": "default",
+      "options": {},
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style media=\"print\">.hidden-on-print { display: none; }</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "15af90ddc8c936b038999d4f7d609e39ab52ad6601016ccef26d82bf8370662c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"/>",
+      "outputSha256": "26951cc72636df9f38efb491012b0ac8a7fbdfe139c4f1408313449440ccdae8"
+    },
+    {
+      "inputKey": "source_media_attribute",
+      "config": "both_on",
+      "options": {
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "mergeStyles": true,
+                "inlineStyles": true
+              }
+            }
+          }
+        ]
+      },
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style media=\"print\">.hidden-on-print { display: none; }</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "15af90ddc8c936b038999d4f7d609e39ab52ad6601016ccef26d82bf8370662c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"/>",
+      "outputSha256": "26951cc72636df9f38efb491012b0ac8a7fbdfe139c4f1408313449440ccdae8"
+    },
+    {
+      "inputKey": "source_media_attribute",
+      "config": "merge_off",
+      "options": {
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "mergeStyles": false,
+                "inlineStyles": true
+              }
+            }
+          }
+        ]
+      },
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style media=\"print\">.hidden-on-print { display: none; }</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "15af90ddc8c936b038999d4f7d609e39ab52ad6601016ccef26d82bf8370662c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"/>",
+      "outputSha256": "26951cc72636df9f38efb491012b0ac8a7fbdfe139c4f1408313449440ccdae8"
+    },
+    {
+      "inputKey": "source_media_attribute",
+      "config": "inline_off",
+      "options": {
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "mergeStyles": true,
+                "inlineStyles": false
+              }
+            }
+          }
+        ]
+      },
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style media=\"print\">.hidden-on-print { display: none; }</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "15af90ddc8c936b038999d4f7d609e39ab52ad6601016ccef26d82bf8370662c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>.hidden-on-print{display:none}</style></svg>",
+      "outputSha256": "24228534ab5c3e4d3b0cbc1a5c3f65af8afe71af0396e129cfb11d327dabc2b0"
+    },
+    {
+      "inputKey": "source_media_attribute",
+      "config": "both_off",
+      "options": {
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "mergeStyles": false,
+                "inlineStyles": false
+              }
+            }
+          }
+        ]
+      },
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style media=\"print\">.hidden-on-print { display: none; }</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "15af90ddc8c936b038999d4f7d609e39ab52ad6601016ccef26d82bf8370662c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style media=\"print\">.hidden-on-print{display:none}</style><path fill=\"red\" d=\"M0 0h100v100H0z\" class=\"hidden-on-print\"/></svg>",
+      "outputSha256": "f6afb6866ee7d9c7988decb5baf4e4f1b7a34c9a3eda61f4ffe8830274fd9456"
+    },
+    {
+      "inputKey": "source_explicit_wrapper",
+      "config": "default",
+      "options": {},
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print { display: none; }}</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "27fd213b747697d7e07867f4893157892e2be098a1886cb604c346645b15086c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print{display:none}}</style><path fill=\"red\" d=\"M0 0h100v100H0z\" class=\"hidden-on-print\"/></svg>",
+      "outputSha256": "bd74e6451c8f21c5a0c87dffb73bb09cadf8aad24e9bdb4bbf325dbd9f370902"
+    },
+    {
+      "inputKey": "source_explicit_wrapper",
+      "config": "both_on",
+      "options": {
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "mergeStyles": true,
+                "inlineStyles": true
+              }
+            }
+          }
+        ]
+      },
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print { display: none; }}</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "27fd213b747697d7e07867f4893157892e2be098a1886cb604c346645b15086c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print{display:none}}</style><path fill=\"red\" d=\"M0 0h100v100H0z\" class=\"hidden-on-print\"/></svg>",
+      "outputSha256": "bd74e6451c8f21c5a0c87dffb73bb09cadf8aad24e9bdb4bbf325dbd9f370902"
+    },
+    {
+      "inputKey": "source_explicit_wrapper",
+      "config": "merge_off",
+      "options": {
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "mergeStyles": false,
+                "inlineStyles": true
+              }
+            }
+          }
+        ]
+      },
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print { display: none; }}</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "27fd213b747697d7e07867f4893157892e2be098a1886cb604c346645b15086c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print{display:none}}</style><path fill=\"red\" d=\"M0 0h100v100H0z\" class=\"hidden-on-print\"/></svg>",
+      "outputSha256": "bd74e6451c8f21c5a0c87dffb73bb09cadf8aad24e9bdb4bbf325dbd9f370902"
+    },
+    {
+      "inputKey": "source_explicit_wrapper",
+      "config": "inline_off",
+      "options": {
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "mergeStyles": true,
+                "inlineStyles": false
+              }
+            }
+          }
+        ]
+      },
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print { display: none; }}</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "27fd213b747697d7e07867f4893157892e2be098a1886cb604c346645b15086c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print{display:none}}</style><path fill=\"red\" d=\"M0 0h100v100H0z\" class=\"hidden-on-print\"/></svg>",
+      "outputSha256": "bd74e6451c8f21c5a0c87dffb73bb09cadf8aad24e9bdb4bbf325dbd9f370902"
+    },
+    {
+      "inputKey": "source_explicit_wrapper",
+      "config": "both_off",
+      "options": {
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "mergeStyles": false,
+                "inlineStyles": false
+              }
+            }
+          }
+        ]
+      },
+      "input": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print { display: none; }}</style><rect class=\"hidden-on-print\" width=\"100\" height=\"100\" fill=\"red\"></rect></svg>",
+      "inputSha256": "27fd213b747697d7e07867f4893157892e2be098a1886cb604c346645b15086c",
+      "inputUnchanged": true,
+      "output": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120\" height=\"120\" viewBox=\"0 0 120 120\"><style>@media print{.hidden-on-print{display:none}}</style><path fill=\"red\" d=\"M0 0h100v100H0z\" class=\"hidden-on-print\"/></svg>",
+      "outputSha256": "bd74e6451c8f21c5a0c87dffb73bb09cadf8aad24e9bdb4bbf325dbd9f370902"
+    }
+  ]
+}

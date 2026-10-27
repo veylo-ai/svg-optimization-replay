@@ -11,5 +11,7 @@
   "nativeBytes": 40976,
   "nativeSha256": "bb1f292d4792a29ffc29f39333f6c2568f0ffece491df38e58e46ace6d2b6677",
   "priorOutputEquality": "All ten exact outputs equal their corresponding prior captured hosted outputs.",
-  "priorFixturesSha256": "a7e44538268fa6f6d63f2bfc1b28b63b266a485c0959898426b85bbca1501d52"
+  "priorFixturesSha256": "a7e44538268fa6f6d63f2bfc1b28b63b266a485c0959898426b85bbca1501d52",
+  "node": "v22.23.4",
+  "testedLockReconstructedBytesSha256": "PASS"
 }
